@@ -11,6 +11,13 @@
 		EA10DF4E2AB14C76007CD4A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF4D2AB14C76007CD4A4 /* SceneDelegate.swift */; };
 		EA10DF552AB14C78007CD4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA10DF542AB14C78007CD4A4 /* Assets.xcassets */; };
 		EA10DF582AB14C78007CD4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA10DF562AB14C78007CD4A4 /* LaunchScreen.storyboard */; };
+		EA10DF662AB14FB3007CD4A4 /* HomeUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF652AB14FB3007CD4A4 /* HomeUseCases.swift */; };
+		EA10DF682AB14FC2007CD4A4 /* HomeRepoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF672AB14FC2007CD4A4 /* HomeRepoProtocol.swift */; };
+		EA10DF6B2AB14FF1007CD4A4 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF6A2AB14FF1007CD4A4 /* HomeModel.swift */; };
+		EA10DF702AB15020007CD4A4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF6E2AB15020007CD4A4 /* HomeViewController.swift */; };
+		EA10DF712AB15020007CD4A4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA10DF6F2AB15020007CD4A4 /* HomeViewController.xib */; };
+		EA10DF732AB1502C007CD4A4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF722AB1502C007CD4A4 /* HomeViewModel.swift */; };
+		EA10DF762AB15053007CD4A4 /* HomeRepoImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF752AB15053007CD4A4 /* HomeRepoImplementation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		EA10DF542AB14C78007CD4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA10DF572AB14C78007CD4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA10DF592AB14C78007CD4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA10DF652AB14FB3007CD4A4 /* HomeUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCases.swift; sourceTree = "<group>"; };
+		EA10DF672AB14FC2007CD4A4 /* HomeRepoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepoProtocol.swift; sourceTree = "<group>"; };
+		EA10DF6A2AB14FF1007CD4A4 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		EA10DF6E2AB15020007CD4A4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EA10DF6F2AB15020007CD4A4 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		EA10DF722AB1502C007CD4A4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EA10DF752AB15053007CD4A4 /* HomeRepoImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepoImplementation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +66,7 @@
 		EA10DF4A2AB14C76007CD4A4 /* MvvmAndCleanArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				EA10DF612AB14C9E007CD4A4 /* Domain */,
-				EA10DF602AB14C8A007CD4A4 /* Presentation */,
-				EA10DF5F2AB14C83007CD4A4 /* Data */,
+				EA10DF622AB14F70007CD4A4 /* Home */,
 				EA10DF4B2AB14C76007CD4A4 /* AppDelegate.swift */,
 				EA10DF4D2AB14C76007CD4A4 /* SceneDelegate.swift */,
 				EA10DF542AB14C78007CD4A4 /* Assets.xcassets */,
@@ -67,6 +79,8 @@
 		EA10DF5F2AB14C83007CD4A4 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EA10DF772AB15075007CD4A4 /* Network */,
+				EA10DF742AB1503C007CD4A4 /* RepoImplementation */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -74,6 +88,8 @@
 		EA10DF602AB14C8A007CD4A4 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				EA10DF6D2AB15011007CD4A4 /* ViewModel */,
+				EA10DF6C2AB15009007CD4A4 /* ViewController */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -81,8 +97,77 @@
 		EA10DF612AB14C9E007CD4A4 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				EA10DF692AB14FE7007CD4A4 /* Model */,
+				EA10DF642AB14F93007CD4A4 /* RepositoryInterface */,
+				EA10DF632AB14F8B007CD4A4 /* UseCases */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		EA10DF622AB14F70007CD4A4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF612AB14C9E007CD4A4 /* Domain */,
+				EA10DF602AB14C8A007CD4A4 /* Presentation */,
+				EA10DF5F2AB14C83007CD4A4 /* Data */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EA10DF632AB14F8B007CD4A4 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF652AB14FB3007CD4A4 /* HomeUseCases.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		EA10DF642AB14F93007CD4A4 /* RepositoryInterface */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF672AB14FC2007CD4A4 /* HomeRepoProtocol.swift */,
+			);
+			path = RepositoryInterface;
+			sourceTree = "<group>";
+		};
+		EA10DF692AB14FE7007CD4A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF6A2AB14FF1007CD4A4 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA10DF6C2AB15009007CD4A4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF6E2AB15020007CD4A4 /* HomeViewController.swift */,
+				EA10DF6F2AB15020007CD4A4 /* HomeViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EA10DF6D2AB15011007CD4A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF722AB1502C007CD4A4 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA10DF742AB1503C007CD4A4 /* RepoImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF752AB15053007CD4A4 /* HomeRepoImplementation.swift */,
+			);
+			path = RepoImplementation;
+			sourceTree = "<group>";
+		};
+		EA10DF772AB15075007CD4A4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +230,7 @@
 			files = (
 				EA10DF582AB14C78007CD4A4 /* LaunchScreen.storyboard in Resources */,
 				EA10DF552AB14C78007CD4A4 /* Assets.xcassets in Resources */,
+				EA10DF712AB15020007CD4A4 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +243,12 @@
 			files = (
 				EA10DF4C2AB14C76007CD4A4 /* AppDelegate.swift in Sources */,
 				EA10DF4E2AB14C76007CD4A4 /* SceneDelegate.swift in Sources */,
+				EA10DF732AB1502C007CD4A4 /* HomeViewModel.swift in Sources */,
+				EA10DF682AB14FC2007CD4A4 /* HomeRepoProtocol.swift in Sources */,
+				EA10DF762AB15053007CD4A4 /* HomeRepoImplementation.swift in Sources */,
+				EA10DF6B2AB14FF1007CD4A4 /* HomeModel.swift in Sources */,
+				EA10DF662AB14FB3007CD4A4 /* HomeUseCases.swift in Sources */,
+				EA10DF702AB15020007CD4A4 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
