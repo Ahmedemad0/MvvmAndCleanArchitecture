@@ -6,7 +6,18 @@
 //
 
 import Foundation
+import Combine
 
 final class HomeRepoImplementation: HomeRepoProtocol {
     
+    let homeNetwork: HomeRemoteRepo
+    
+    init(homeNetwork: HomeRemoteRepo = HomeNetwork()) {
+        self.homeNetwork = homeNetwork
+    }
+    
+    
+    func getPosts() -> AnyPublisher<[PostsModel], Error> {
+        homeNetwork.getPosts()
+    }
 }

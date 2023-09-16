@@ -13,11 +13,17 @@
 		EA10DF582AB14C78007CD4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA10DF562AB14C78007CD4A4 /* LaunchScreen.storyboard */; };
 		EA10DF662AB14FB3007CD4A4 /* HomeUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF652AB14FB3007CD4A4 /* HomeUseCases.swift */; };
 		EA10DF682AB14FC2007CD4A4 /* HomeRepoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF672AB14FC2007CD4A4 /* HomeRepoProtocol.swift */; };
-		EA10DF6B2AB14FF1007CD4A4 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF6A2AB14FF1007CD4A4 /* HomeModel.swift */; };
+		EA10DF6B2AB14FF1007CD4A4 /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF6A2AB14FF1007CD4A4 /* PostsModel.swift */; };
 		EA10DF702AB15020007CD4A4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF6E2AB15020007CD4A4 /* HomeViewController.swift */; };
 		EA10DF712AB15020007CD4A4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA10DF6F2AB15020007CD4A4 /* HomeViewController.xib */; };
 		EA10DF732AB1502C007CD4A4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF722AB1502C007CD4A4 /* HomeViewModel.swift */; };
 		EA10DF762AB15053007CD4A4 /* HomeRepoImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF752AB15053007CD4A4 /* HomeRepoImplementation.swift */; };
+		EA8C817B2AB4B2A600EAED74 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C81792AB4B2A600EAED74 /* PostsTableViewCell.swift */; };
+		EA8C817C2AB4B2A600EAED74 /* PostsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8C817A2AB4B2A600EAED74 /* PostsTableViewCell.xib */; };
+		EA8C817E2AB4B5F500EAED74 /* HomeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C817D2AB4B5F500EAED74 /* HomeNetwork.swift */; };
+		EA8C81812AB4B6D000EAED74 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C81802AB4B6D000EAED74 /* SessionManager.swift */; };
+		EA8C81842AB4C2D900EAED74 /* PostsSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C81832AB4C2D900EAED74 /* PostsSectionViewModel.swift */; };
+		EA8C81872AB4C33E00EAED74 /* PostsDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C81862AB4C33E00EAED74 /* PostsDataSources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +35,17 @@
 		EA10DF592AB14C78007CD4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA10DF652AB14FB3007CD4A4 /* HomeUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCases.swift; sourceTree = "<group>"; };
 		EA10DF672AB14FC2007CD4A4 /* HomeRepoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepoProtocol.swift; sourceTree = "<group>"; };
-		EA10DF6A2AB14FF1007CD4A4 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		EA10DF6A2AB14FF1007CD4A4 /* PostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
 		EA10DF6E2AB15020007CD4A4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EA10DF6F2AB15020007CD4A4 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		EA10DF722AB1502C007CD4A4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EA10DF752AB15053007CD4A4 /* HomeRepoImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepoImplementation.swift; sourceTree = "<group>"; };
+		EA8C81792AB4B2A600EAED74 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		EA8C817A2AB4B2A600EAED74 /* PostsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsTableViewCell.xib; sourceTree = "<group>"; };
+		EA8C817D2AB4B5F500EAED74 /* HomeNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNetwork.swift; sourceTree = "<group>"; };
+		EA8C81802AB4B6D000EAED74 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		EA8C81832AB4C2D900EAED74 /* PostsSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsSectionViewModel.swift; sourceTree = "<group>"; };
+		EA8C81862AB4C33E00EAED74 /* PostsDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDataSources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,7 @@
 		EA10DF602AB14C8A007CD4A4 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				EA8C81782AB4B29000EAED74 /* Views */,
 				EA10DF6D2AB15011007CD4A4 /* ViewModel */,
 				EA10DF6C2AB15009007CD4A4 /* ViewController */,
 			);
@@ -97,6 +110,7 @@
 		EA10DF612AB14C9E007CD4A4 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				EA8C81852AB4C32700EAED74 /* DataSources */,
 				EA10DF692AB14FE7007CD4A4 /* Model */,
 				EA10DF642AB14F93007CD4A4 /* RepositoryInterface */,
 				EA10DF632AB14F8B007CD4A4 /* UseCases */,
@@ -107,6 +121,7 @@
 		EA10DF622AB14F70007CD4A4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				EA8C817F2AB4B6BE00EAED74 /* Networking */,
 				EA10DF612AB14C9E007CD4A4 /* Domain */,
 				EA10DF602AB14C8A007CD4A4 /* Presentation */,
 				EA10DF5F2AB14C83007CD4A4 /* Data */,
@@ -133,7 +148,7 @@
 		EA10DF692AB14FE7007CD4A4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EA10DF6A2AB14FF1007CD4A4 /* HomeModel.swift */,
+				EA10DF6A2AB14FF1007CD4A4 /* PostsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				EA10DF722AB1502C007CD4A4 /* HomeViewModel.swift */,
+				EA8C81832AB4C2D900EAED74 /* PostsSectionViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -166,8 +182,34 @@
 		EA10DF772AB15075007CD4A4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				EA8C817D2AB4B5F500EAED74 /* HomeNetwork.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		EA8C81782AB4B29000EAED74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA8C81792AB4B2A600EAED74 /* PostsTableViewCell.swift */,
+				EA8C817A2AB4B2A600EAED74 /* PostsTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA8C817F2AB4B6BE00EAED74 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EA8C81802AB4B6D000EAED74 /* SessionManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EA8C81852AB4C32700EAED74 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				EA8C81862AB4C33E00EAED74 /* PostsDataSources.swift */,
+			);
+			path = DataSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +273,7 @@
 				EA10DF582AB14C78007CD4A4 /* LaunchScreen.storyboard in Resources */,
 				EA10DF552AB14C78007CD4A4 /* Assets.xcassets in Resources */,
 				EA10DF712AB15020007CD4A4 /* HomeViewController.xib in Resources */,
+				EA8C817C2AB4B2A600EAED74 /* PostsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,10 +288,15 @@
 				EA10DF4E2AB14C76007CD4A4 /* SceneDelegate.swift in Sources */,
 				EA10DF732AB1502C007CD4A4 /* HomeViewModel.swift in Sources */,
 				EA10DF682AB14FC2007CD4A4 /* HomeRepoProtocol.swift in Sources */,
+				EA8C81872AB4C33E00EAED74 /* PostsDataSources.swift in Sources */,
 				EA10DF762AB15053007CD4A4 /* HomeRepoImplementation.swift in Sources */,
-				EA10DF6B2AB14FF1007CD4A4 /* HomeModel.swift in Sources */,
+				EA10DF6B2AB14FF1007CD4A4 /* PostsModel.swift in Sources */,
+				EA8C817B2AB4B2A600EAED74 /* PostsTableViewCell.swift in Sources */,
 				EA10DF662AB14FB3007CD4A4 /* HomeUseCases.swift in Sources */,
+				EA8C81842AB4C2D900EAED74 /* PostsSectionViewModel.swift in Sources */,
 				EA10DF702AB15020007CD4A4 /* HomeViewController.swift in Sources */,
+				EA8C817E2AB4B5F500EAED74 /* HomeNetwork.swift in Sources */,
+				EA8C81812AB4B6D000EAED74 /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

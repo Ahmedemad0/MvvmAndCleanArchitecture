@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         self.window = window
-        let viewController = UIViewController()
+        let viewController = HomeViewController()
         let navigationController = UINavigationController(rootViewController: viewController)
         
         navigationController.isNavigationBarHidden = true

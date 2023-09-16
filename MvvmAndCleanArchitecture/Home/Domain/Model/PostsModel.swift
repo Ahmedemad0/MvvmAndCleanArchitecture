@@ -7,6 +7,8 @@
 
 import Foundation
 
-struct HomeModel {
-    
+struct PostsModel: Codable {
+    var id: Int
+    var title: String
+    var body: String
 }

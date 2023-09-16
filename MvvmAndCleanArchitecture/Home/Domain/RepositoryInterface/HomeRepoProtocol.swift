@@ -6,7 +6,8 @@
 //
 
 import Foundation
+import Combine
 
 protocol HomeRepoProtocol {
-    
+    func getPosts()-> AnyPublisher<[PostsModel], Error >
 }

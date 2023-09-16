@@ -6,7 +6,17 @@
 //
 
 import Foundation
+import Combine
 
 class HomeUseCases {
     
+    private let repo: HomeRepoProtocol
+    
+    init(repo: HomeRepoProtocol = HomeRepoImplementation()) {
+        self.repo = repo
+    }
+    
+    func getPosts()-> AnyPublisher<[PostsModel], Error >{
+        repo.getPosts()
+    }
 }
